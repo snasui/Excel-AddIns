@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load">
+  <ribbon>
+    <tabs>
+      <tab id="tabUtilities" label="Utilities">
+        <group id="grpTaks" label="Task">
+          <!--<button id="btnLogin" label="Login" onAction="IRibbon_Click"
+            imageMso="DatabasePermissionsMenu" size="large" tag ="grpTask" />
+          <separator id="sept01"/>-->
+          <button id="btnCleanName" label="Delete error names" onAction="IRibbon_Click"
+            imageMso="TableStyleClear" size="large" tag ="grpTask" />
+          <button id="btnCleanStyle" label="Delete non build-in styles" onAction="IRibbon_Click"
+            imageMso="GroupSmartArtQuickStyles" size="large" tag ="grpTask" />
+          <button id="btnCleanObjects" label="Delete all objects" onAction="IRibbon_Click"
+           imageMso="GroupSmartArtQuickStyles" size="large" tag ="grpTask" />
+          <button id="btnAbout" label="About" onAction="IRibbon_Click"
+           imageMso="FileDocumentManagementInformation" size="normal" tag ="grpTask" />
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
+
